@@ -2,7 +2,7 @@ from typing import Dict
 
 
 class SingletonMeta(type):
-    """Regular Singleton."""
+    """Regular Singleton implementation"""
 
     _instances: Dict = {}
 
